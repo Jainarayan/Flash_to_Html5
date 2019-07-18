@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width= device-width, initial-scale=1.0" /><!--The viewport is the user's visible area of the web page.-->
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+
+</head>
+<body>
+<!-- Main Content Page-->
+<div id="startContainer">
+		<img id="mainStart" src="images/start.gif" draggable="false" />		
+	</div>
+<div id="mainContainer">	 
+	<div class="title-bar">
+		<div class="title-content">lgh ¼ <span><img id="title-image" src="images/correct.png" draggable="false"></span> ½ fodYi pqfu,A</div>
+	</div>
+	<div id="top-box" id="left">				
+		<div id="content-box">	
+		
+			<!-- Question 1  -->
+			<div id="quest1" class="content">dÛ fgeky;</div>
+			<!-- Answer Options --> 
+			<div id="answer-option1" class="answers">
+				<span class="options">fgek $ y;    <button class="option-buttons incorrect"></button></span>
+				<span class="options">fge  $  y;	   <button id="co" class="option-buttons correct"></button></span>
+				<span class="options">fge  $  vky;    <button class="option-buttons incorrect"></button></span>
+				<span class="options">fgeky $ ;    <button class="option-buttons incorrect"></button></span>
+			</div>
+			
+			<!-- Question 2  -->
+			<div id="quest2" class="content">[kÛ “khryrk</div>
+			<!-- Answer Options -->
+			<div id="answer-option2" class="answers">
+				<span class="options">“khr $ yrk   <button class="option-buttons incorrect"></button></span>
+				<span class="options">“khry $ rk    <button class="option-buttons correct"></button></span>
+				<span class="options">“kh  $ ryrk   <button class="option-buttons incorrect"></button></span>
+				<span class="options">“khr  $ yrk  <button class="option-buttons incorrect"></button></span>
+			</div>
+			
+			<!-- Question 3  -->
+			<div id="quest3" class="content">xÛ mTToy</div>
+			<!-- Answer Options  -->
+			<div id="answer-option3" class="answers">
+				<span class="options">mT  $ Toy<button class="option-buttons incorrect"></button></span>
+				<span class="options">mr~ $ Toy <button class="option-buttons correct"></button></span>
+				<span class="options">mTT $ oy <button class="option-buttons incorrect"></button></span>
+				<span class="options">mTt $ oy<button class="option-buttons incorrect"></button></span>				
+			</div>			
+		</div>
+		<div id="bottomButtons">
+			<div id="show"><img id="show-img" src="images/show-1.png" draggable="false"/></div>
+			<div id="refresh"><img id="refresh-img" src="images/refresh-1.png" draggable="false"/></div>
+		</div>
+		<iframe id="iframe1" src="gifs/First/First.html"  width="30%" height="45%" style=" position: absolute; bottom: -1vmin; right: -6vmin; border: 0; z-index: -1;"></iframe>
+		<iframe id="iframe2" src="gifs/Correct/Correct.html"  width="30%" height="45%" style=" position: absolute; bottom: -2vmin; right: -5vmin; border: 0; z-index: -1;"></iframe>
+		<iframe id="iframe3" src="gifs/Incorrect/Incorrect.html"  width="30%" height="45%" style=" position: absolute; bottom: -2vmin; right: -6vmin; border: 0; z-index: -1;"></iframe>
+	</div>	
+	<div id="hideContainer">
+	</div>
+</div>
+
+<!-- Result Page -->
+<div id="resultContainer">	 
+	<div class="result-title">
+		<div class="result-title-content">vad rkfydk</div>
+	</div>
+	<div id="result-content-box">
+		<div class="result-content">dqy<span id="totalCount">0</span></div></div>
+	<div id="result-content-box">
+		<div class="result-content">lgh<span id="totalCorrect">0</span></div>
+	</div>
+	<div id="result-content-box">
+		<div class="result-content">xyr<span id="totalIncorrect">0</span></div>
+	</div>
+	<div id="result-refresh">
+		<div class="result-refresh-content">iqu% djs</div>
+	</div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html> 
+
